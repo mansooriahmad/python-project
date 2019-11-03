@@ -108,22 +108,22 @@ def show_log():
 #### main function, show menu to do action   ##############
 ###########################################################
 
-def my_phone():
+#def my_phone():
     
-    k = input(' Welcome\n 1-Show contact\n 2-Add contact\n 3-Call\n 4-Show log\n 5-Exit\n')
+k = input(' Welcome\n 1-Show contact\n 2-Add contact\n 3-Call\n 4-Show log\n 5-Exit\n')
     
-    if k == '1':
-        phone_book()
+if k == '1':
+    phone_book()
        
-    if k == '2':
-        input_data()
+if k == '2':
+    input_data()
         
-    if k == '3':
-        name = input('Enter the name : ')
-        call_to(name)
+if k == '3':
+    name = input('Enter the name : ')
+    call_to(name)
         
-    if k == '4':
-        show_log()
+if k == '4':
+    show_log()
 
   
 ###########################################################
